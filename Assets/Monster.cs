@@ -3,7 +3,7 @@
 [XmlRoot("MyGun")]
 public class Monster
 {
-    [XmlElement("GunName")]
+    [XmlElement("MonsterName")]
     public string Name;
     public int ID;
     public float Health;
