@@ -21,6 +21,13 @@ public class Serializer : MonoBehaviour
             Health = 100f
         });
 
+        monsterContainer.monsterContainer.Add(new Monster
+        {
+            Name = "Troll",
+            ID = 2,
+            Health = 200f
+        });
+
         XmlOperation.Serialize(monsterContainer, Path.Combine(Application.persistentDataPath, "Monster.xml"));
     }
 }

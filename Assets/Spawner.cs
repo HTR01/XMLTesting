@@ -15,6 +15,10 @@ public class Spawner : MonoBehaviour
     {
         Instantiate(monsters[1]);
     }
+    public void SpawnTroll()
+    {
+        Instantiate(monsters[2]);
+    }
 
     private void Update()
     {
@@ -25,6 +29,10 @@ public class Spawner : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.W))
         {
             SpawnOgre();
+        }
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            SpawnTroll();
         }
     }
 }

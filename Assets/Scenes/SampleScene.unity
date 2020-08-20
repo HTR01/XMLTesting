@@ -193,7 +193,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 2.469e-42, y: 1.05e-43, z: -2.4178516e+24, w: 0}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
@@ -459,3 +459,4 @@ MonoBehaviour:
   monsters:
   - {fileID: 3122834481148539809, guid: 36ab29ede16661544b8fc589b502d486, type: 3}
   - {fileID: 8656836959632856329, guid: 11adb13cd03c43c48919c1c265ab4912, type: 3}
+  - {fileID: 8656836959632856329, guid: 29cb352c2c1b9284482c3373465c97f3, type: 3}
